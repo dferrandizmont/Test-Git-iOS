@@ -21,6 +21,7 @@
 		E1F0C3A018CDF348006F6E84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F0C38218CDF348006F6E84 /* UIKit.framework */; };
 		E1F0C3A818CDF348006F6E84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1F0C3A618CDF348006F6E84 /* InfoPlist.strings */; };
 		E1F0C3AA18CDF348006F6E84 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0C3A918CDF348006F6E84 /* Git_TestTests.m */; };
+		E1F0C3B518CDF9E8006F6E84 /* DFMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0C3B418CDF9E8006F6E84 /* DFMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E1F0C3A518CDF348006F6E84 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		E1F0C3A718CDF348006F6E84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1F0C3A918CDF348006F6E84 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		E1F0C3B318CDF9E8006F6E84 /* DFMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DFMTest.h; path = ../DFMTest.h; sourceTree = "<group>"; };
+		E1F0C3B418CDF9E8006F6E84 /* DFMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DFMTest.m; path = ../DFMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		E1F0C38418CDF348006F6E84 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				E1F0C3B318CDF9E8006F6E84 /* DFMTest.h */,
+				E1F0C3B418CDF9E8006F6E84 /* DFMTest.m */,
 				E1F0C38D18CDF348006F6E84 /* DFMAppDelegate.h */,
 				E1F0C38E18CDF348006F6E84 /* DFMAppDelegate.m */,
 				E1F0C39018CDF348006F6E84 /* Main.storyboard */,
@@ -253,6 +258,7 @@
 				E1F0C39518CDF348006F6E84 /* DFMViewController.m in Sources */,
 				E1F0C38F18CDF348006F6E84 /* DFMAppDelegate.m in Sources */,
 				E1F0C38B18CDF348006F6E84 /* main.m in Sources */,
+				E1F0C3B518CDF9E8006F6E84 /* DFMTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				E1F0C3AF18CDF348006F6E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1F0C3B018CDF348006F6E84 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				E1F0C3B218CDF348006F6E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
